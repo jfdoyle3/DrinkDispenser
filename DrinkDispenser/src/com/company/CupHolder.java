@@ -18,7 +18,7 @@ public class CupHolder {
     }
 
     public void refill(int amt) {
-        cupQuantity = amt;
+        cupQuantity += amt;
     }
 
 

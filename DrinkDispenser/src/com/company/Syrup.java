@@ -9,8 +9,9 @@ public class Syrup{
         this.liquidAmount=liquidAmount;
     }
 
-    public void dispense(int amt){
-        liquidAmount=amt;
+    public String dispense(int amt){
+        liquidAmount-=amt;
+        return this.drinkName;
     }
 
     public int getVolume() {
